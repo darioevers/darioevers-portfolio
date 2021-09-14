@@ -1,2 +1,2 @@
 Portfolio
- <img src="/src/img/portfolio_readme_cover.png"/>
+ <img src="/src/img/Portfolio_readme_cover.png"/>
