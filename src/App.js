@@ -10,10 +10,7 @@ import Notificationbox from "./components/Notificationbox";
 import Profilebox from "./components/Profilebox";
 
 // DASHBOARD IMPORTS
-import Dashboardtopbox from "./components/Dashboardtopbox";
-import Dashboardleftbotbox from "./components/Dashboardleftbotbox";
-import Dashboardmidbotbox from "./components/Dashboardmidbotbox";
-import Dashboardrightbotbox from "./components/Dashboardleftbotbox";
+import Dashboard from "./components/dashboard/Dashboard";
 
 // ABOUT IMPORTS
 // SKILLS IMPORTS
@@ -36,13 +33,16 @@ function App() {
       <Contactbox />
       <Notificationbox />
       <Profilebox />
-      {/* DASHBOARD COMPONENTS */}
-      <Dashboardtopbox />
-      <Dashboardleftbotbox />
-      <Dashboardmidbotbox />
-      <Dashboardrightbotbox />
-        {/* ABOUT COMPONENTS */}
+      <Switch>
+        <Route path="/" exact component={Dashboard}></Route>
+        {/* <Route path="/about" exact component={About}></Route>
+        <Route path="/skills" exact component={Skills}></Route>
+        <Route path="/works" exact component={Works}></Route>
+        <Route path="/contact" exact component={Contact}></Route>
+        <Route path="/settings" exact component={Settings}></Route> */}
+        </Switch>
         </Router>
   );
 }
 export default App;
+
