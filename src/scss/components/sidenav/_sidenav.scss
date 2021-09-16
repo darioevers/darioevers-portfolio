@@ -14,14 +14,14 @@
     width: inherit;
     margin: 5% 10%;
     .sidenav_top {
-      height: 15%;
+      height: 10%;
       width: 80%;
-      outline: green 1px solid;
+      border: red 1px solid;
     }
     .sidenav_mid {
-      outline: green 1px solid;
-      height: 45%;
+      height: 50%;
       width: 80%;
+      border: red 1px solid;
       ul {
         list-style-type: none;
         text-align: center;
@@ -29,18 +29,38 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        button {
-          width: 150px;
-          border-radius: 15px;
-          padding: 10px;
-          margin: 8px 0px;
+        .navlink {
+          line-height: 55px;
+        }
+        .sidenav_button {
+          border: none;
+          border-radius: 10px;
+          background-color: transparent;
+          width: 80%;
+          height: 55px;
+          padding: 10px 0px 10px 45px;
+          margin: 4px 0px;
+          text-align: left;
+          font-size: 1rem;
+          overflow: hidden;
+          transition: background-color 0.1s ease-in-out;
+          font-family: $font-family-roboto;
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          i {
+            margin-right: 10px;
+          }
+        }
+        .active {
+          background-color: red;
+          border: $green 1px solid;
         }
       }
     }
     .sidenav_bot {
       height: 35%;
       width: 80%;
-      outline: green 1px solid;
+      border: red 1px solid;
     }
   }
 }

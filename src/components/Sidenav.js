@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Sidenav = () => {
   return (
@@ -9,46 +9,46 @@ const Sidenav = () => {
         <div class="sidenav_mid">
           <ul class="sidenav_navigation">
             <li>
-              <Link to="/">
-                <button>
-                  <i class="fas fa-home"> Dashboard</i>
+              <NavLink exact to="/">
+                <button class="sidenav_button">
+                  <i class="fas fa-columns"></i> Dashboard
                 </button>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">
-                <button>
-                  <i class="fas fa-home"> About</i>
+              <NavLink to="/about" activeClassName="active">
+                <button class="sidenav_button">
+                  <i class="fas fa-heart"></i> About
                 </button>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/skills">
-                <button>
-                  <i class="fas fa-home"> Skills</i>
+              <NavLink strict to="/skills" activeClassName="active">
+                <button class="sidenav_button">
+                  <i class="fas fa-tools"></i> Skills
                 </button>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/works">
-                <button>
-                  <i class="fas fa-home"> Works</i>
+              <NavLink to="/works" activeClassName="active">
+                <button class="sidenav_button">
+                  <i class="fas fa-compass"></i> Works
                 </button>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">
-                <button>
-                  <i class="fas fa-home"> Contact</i>
+              <NavLink to="/contact" activeClassName="active">
+                <button class="sidenav_button">
+                  <i class="fas fa-envelope"></i> Contact
                 </button>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/settings">
-                <button>
-                  <i class="fas fa-home"> Settings</i>
+              <NavLink to="/settings" activeClassName="active">
+                <button class="sidenav_button">
+                  <i class="fas fa-cog"></i> Settings
                 </button>
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
