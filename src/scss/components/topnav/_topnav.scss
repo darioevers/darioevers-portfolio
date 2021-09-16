@@ -1,0 +1,14 @@
+.topnav_box {
+  background-color: $gray;
+  position: relative;
+  border-radius: 15px;
+  width: 70%;
+  margin-left: 25%;
+  height: 60px;
+  .topnav_box_left {
+    width: 50%;
+  }
+  .topnav_box_right {
+    width: 50%;
+  }
+}
