@@ -1,9 +1,47 @@
 .sidenav_main {
-    position: relative;
-    margin: 0 auto;
-    width: 320px;
-    height: 100vh;
-    float: left;
-    overflow: hidden;
-    background-color: #f6f6f6;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 320px;
+  height: 100vh;
+  float: left;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  .sidenav_boxes {
+    height: inherit;
+    width: inherit;
+    margin: 5% 10%;
+    .sidenav_top {
+      height: 15%;
+      width: 80%;
+      outline: green 1px solid;
+    }
+    .sidenav_mid {
+      outline: green 1px solid;
+      height: 45%;
+      width: 80%;
+      ul {
+        list-style-type: none;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        outline: red 1px solid;
+        text-align: center;
+        button {
+          width: 150px;
+          height: 40px;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 8px 0px;
+        }
+      }
+    }
+    .sidenav_bot {
+      height: 35%;
+      width: 80%;
+      outline: green 1px solid;
+    }
+  }
 }
