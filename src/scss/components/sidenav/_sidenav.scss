@@ -80,10 +80,20 @@
       button {
         width: 200px;
         height: 40px;
-        border: none;
+        border: $gray 1px solid;
+        border-radius: 15px;
         background-color: white;
         font-size: 1rem;
         margin: 5px 0px 10px;
+        transition: 0.2s ease-in-out;
+      }
+      button:hover {
+        color: $lightred;
+        border: $lightred 1px solid;
+      }
+      h6 {
+        font-weight: 300;
+        margin-top: 5px;
       }
     }
   }

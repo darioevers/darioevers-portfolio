@@ -64,7 +64,9 @@ const Sidenav = () => {
         </div>
         <div class="sidenav_bot">
           <img src={mailmanimg} alt="Logo" />
-          <button>Get In Touch</button>
+          <Link to="/contact">
+            <button>Get In Touch</button>
+          </Link>
           <h6>darioevers.com</h6>
           <h6>ressources used</h6>
         </div>
