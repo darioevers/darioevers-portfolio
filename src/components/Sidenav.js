@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import mailmanimg from "../img/MAILMAN.svg";
 
 const Sidenav = () => {
   return (
@@ -61,7 +62,12 @@ const Sidenav = () => {
             </li>
           </ul>
         </div>
-        <div class="sidenav_bot"></div>
+        <div class="sidenav_bot">
+          <img src={mailmanimg} alt="Logo" />
+          <button>Get In Touch</button>
+          <h6>darioevers.com</h6>
+          <h6>ressources used</h6>
+        </div>
       </div>
     </div>
   );
