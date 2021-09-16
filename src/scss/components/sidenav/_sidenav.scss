@@ -44,9 +44,13 @@
           font-family: $font-family-roboto;
           text-decoration: none;
           color: rgb(0, 0, 0);
+          transition: 0.2s ease-in-out;
           i {
             margin-right: 10px;
           }
+        }
+        .sidenav_button:hover {
+          color: $lightred;
         }
         .active {
           background-color: white;
