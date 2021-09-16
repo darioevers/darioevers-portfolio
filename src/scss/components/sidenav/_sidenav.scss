@@ -16,12 +16,10 @@
     .sidenav_top {
       height: 10%;
       width: 80%;
-      border: red 1px solid;
     }
     .sidenav_mid {
       height: 50%;
       width: 80%;
-      border: red 1px solid;
       ul {
         list-style-type: none;
         text-align: center;
@@ -29,21 +27,20 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        .navlink {
-          line-height: 55px;
-        }
         .sidenav_button {
+          display: block;
           border: none;
           border-radius: 10px;
           background-color: transparent;
-          width: 80%;
-          height: 55px;
+          width: 204px;
+          height: 40px;
+          line-height: 40px;
           padding: 10px 0px 10px 45px;
-          margin: 4px 0px;
+          margin: 6px 0px;
           text-align: left;
-          font-size: 1rem;
+          font-size: 1.1rem;
           overflow: hidden;
-          transition: background-color 0.1s ease-in-out;
+          transition: background-color 0.2s ease-in-out;
           font-family: $font-family-roboto;
           text-decoration: none;
           color: rgb(0, 0, 0);
@@ -52,15 +49,23 @@
           }
         }
         .active {
-          background-color: red;
+          background-color: white;
           border: $green 1px solid;
+          width: 202px;
+          height: 38px;
+          padding: 9px 0px 10px 44px;
         }
       }
     }
     .sidenav_bot {
       height: 35%;
       width: 80%;
-      border: red 1px solid;
     }
   }
+}
+
+textarea {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
 }

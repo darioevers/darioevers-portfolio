@@ -9,45 +9,54 @@ const Sidenav = () => {
         <div class="sidenav_mid">
           <ul class="sidenav_navigation">
             <li>
-              <NavLink exact to="/">
-                <button class="sidenav_button">
-                  <i class="fas fa-columns"></i> Dashboard
-                </button>
+              <NavLink exact to="/" className="sidenav_button">
+                <i class="fas fa-columns"></i> Dashboard
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeClassName="active">
-                <button class="sidenav_button">
-                  <i class="fas fa-heart"></i> About
-                </button>
+              <NavLink
+                to="/about"
+                activeClassName="active"
+                className="sidenav_button"
+              >
+                <i class="fas fa-heart"></i> About
               </NavLink>
             </li>
             <li>
-              <NavLink strict to="/skills" activeClassName="active">
-                <button class="sidenav_button">
-                  <i class="fas fa-tools"></i> Skills
-                </button>
+              <NavLink
+                strict
+                to="/skills"
+                activeClassName="active"
+                className="sidenav_button"
+              >
+                <i class="fas fa-tools"></i> Skills
               </NavLink>
             </li>
             <li>
-              <NavLink to="/works" activeClassName="active">
-                <button class="sidenav_button">
-                  <i class="fas fa-compass"></i> Works
-                </button>
+              <NavLink
+                to="/works"
+                activeClassName="active"
+                className="sidenav_button"
+              >
+                <i class="fas fa-compass"></i> Works
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" activeClassName="active">
-                <button class="sidenav_button">
-                  <i class="fas fa-envelope"></i> Contact
-                </button>
+              <NavLink
+                to="/contact"
+                activeClassName="active"
+                className="sidenav_button"
+              >
+                <i class="fas fa-envelope"></i> Contact
               </NavLink>
             </li>
             <li>
-              <NavLink to="/settings" activeClassName="active">
-                <button class="sidenav_button">
-                  <i class="fas fa-cog"></i> Settings
-                </button>
+              <NavLink
+                to="/settings"
+                activeClassName="active"
+                className="sidenav_button"
+              >
+                <i class="fas fa-cog"></i> Settings
               </NavLink>
             </li>
           </ul>
