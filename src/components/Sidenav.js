@@ -25,7 +25,6 @@ const Sidenav = () => {
             </li>
             <li>
               <NavLink
-                strict
                 to="/skills"
                 activeClassName="active"
                 className="sidenav_button"
