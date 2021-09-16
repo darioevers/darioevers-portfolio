@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/darioevers-portfolio/static/css/main.15110c14.chunk.css",
+    "main.css": "/darioevers-portfolio/static/css/main.fa640caa.chunk.css",
     "main.js": "/darioevers-portfolio/static/js/main.0addbb20.chunk.js",
     "main.js.map": "/darioevers-portfolio/static/js/main.0addbb20.chunk.js.map",
     "runtime-main.js": "/darioevers-portfolio/static/js/runtime-main.f91ed417.js",
@@ -8,14 +8,14 @@
     "static/js/2.7807029d.chunk.js": "/darioevers-portfolio/static/js/2.7807029d.chunk.js",
     "static/js/2.7807029d.chunk.js.map": "/darioevers-portfolio/static/js/2.7807029d.chunk.js.map",
     "index.html": "/darioevers-portfolio/index.html",
-    "static/css/main.15110c14.chunk.css.map": "/darioevers-portfolio/static/css/main.15110c14.chunk.css.map",
+    "static/css/main.fa640caa.chunk.css.map": "/darioevers-portfolio/static/css/main.fa640caa.chunk.css.map",
     "static/js/2.7807029d.chunk.js.LICENSE.txt": "/darioevers-portfolio/static/js/2.7807029d.chunk.js.LICENSE.txt",
     "static/media/MAILMAN.3e8e6e06.svg": "/darioevers-portfolio/static/media/MAILMAN.3e8e6e06.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f91ed417.js",
     "static/js/2.7807029d.chunk.js",
-    "static/css/main.15110c14.chunk.css",
+    "static/css/main.fa640caa.chunk.css",
     "static/js/main.0addbb20.chunk.js"
   ]
 }
