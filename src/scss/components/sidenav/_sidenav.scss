@@ -29,7 +29,7 @@
         transform: translate(-50%, -50%);
         .sidenav_button {
           display: block;
-          border: none;
+          border: $gray 1px solid;
           border-radius: 10px;
           background-color: transparent;
           width: 204px;
@@ -51,9 +51,6 @@
         .active {
           background-color: white;
           border: $green 1px solid;
-          width: 202px;
-          height: 38px;
-          padding: 9px 0px 10px 44px;
         }
       }
     }
