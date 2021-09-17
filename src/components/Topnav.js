@@ -1,4 +1,5 @@
 import React from "react";
+import Themetoggle from "../components/Themetoggle";
 
 const Topnav = () => {
   return (
@@ -10,6 +11,9 @@ const Topnav = () => {
           </div>
         </div>
         <div className="topnav_box_right">
+          <div className="themetoggle_button">
+            <Themetoggle />
+          </div>
           <div className="contactbox_button">
             <i class="fas fa-envelope"></i>
           </div>

@@ -1,4 +1,5 @@
 import "./scss/main.scss";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // GLOBAL IMPORTS
@@ -8,6 +9,7 @@ import Languagebox from "./components/Languagebox";
 import Contactbox from "./components/Contactbox";
 import Notificationbox from "./components/Notificationbox";
 import Profilebox from "./components/Profilebox";
+import Themetoggle from "./components/Themetoggle";
 
 // DASHBOARD IMPORTS
 import Dashboard from "./components/dashboard/Dashboard";

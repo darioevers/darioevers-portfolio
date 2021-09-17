@@ -1,0 +1,32 @@
+// THEME VARIABLES
+
+$themes: (
+  light: (
+    theme-background: #ffffff,
+    theme-navbackground: #f6f6f6,
+    theme-navbutton-active: #ffffff,
+    theme-navbutton-inactive: transparent,
+    theme-navbutton-activeborder: #c5d86d 1px solid,
+    theme-navbutton-inactiveborder: #f6f6f6 1px solid,
+    theme-navbutton-border-hover: #c5d86d 1px solid,
+    theme-button: #ffffff,
+    theme-button-hover: #f6f6f6,
+    theme-primarytext: #000000,
+    theme-secondarytext: #666,
+    theme-navbutton-text: #000000,
+  ),
+  dark: (
+    theme-background: #221f22,
+    theme-navbackground: #fcc700,
+    theme-navbutton-active: transparent,
+    theme-navbutton-inactive: transparent,
+    theme-navbutton-activeborder: #221f22 1px solid,
+    theme-navbutton-inactiveborder: #fcc700 1px solid,
+    theme-navbutton-border-hover: #c89a00 1px solid,
+    theme-button: #ffffff,
+    theme-button-hover: #f6f6f6,
+    theme-primarytext: #ffffff,
+    theme-secondarytext: #ebebeb,
+    theme-navbutton-text: #000000,
+  ),
+);

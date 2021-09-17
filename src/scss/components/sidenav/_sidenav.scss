@@ -1,14 +1,18 @@
 .sidenav_main {
+  // SIZING
+  width: 320px;
+  height: 100vh;
+  // POSITION
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  margin: 0 auto;
-  width: 320px;
-  height: 100vh;
   float: left;
+  // FONTS
+  // OTHER
   overflow: hidden;
-  background-color: #f6f6f6;
+  // COLORS AND THEME SETTINGS
+  @include theme-controller("background-color", "theme-navbackground");
   .sidenav_boxes {
     height: inherit;
     width: inherit;
@@ -28,40 +32,56 @@
         left: 50%;
         transform: translate(-50%, -50%);
         .sidenav_button {
-          display: block;
-          border: $gray 1px solid;
-          border-radius: 10px;
-          background-color: transparent;
+          // SIZING
           width: 204px;
           height: 35px;
-          line-height: 35px;
+          // POSITION
+          display: block;
           padding: 10px 0px 10px 45px;
           margin: 6px 0px;
+          // FONT
           text-align: left;
           font-size: 1.1rem;
-          overflow: hidden;
-          transition: background-color 0.2s ease-in-out;
           font-family: $font-family-roboto;
           text-decoration: none;
-          color: rgb(0, 0, 0);
+          line-height: 35px;
+          // OTHER
+          border-radius: 10px;
+          overflow: hidden;
           transition: 0.2s ease-in-out;
+          // COLORS AND THEME SETTINGS
+          @include theme-controller(
+            "background-color",
+            "theme-navbutton-inactive"
+          );
+          @include theme-controller("border", "theme-navbutton-inactiveborder");
+          @include theme-controller("color", "theme-navbutton-text");
           i {
             margin-right: 10px;
           }
         }
         .sidenav_button:hover {
-          color: $lightred;
+          transition: 0.2s ease-in-out;
+          @include theme-controller("border", "theme-navbutton-border-hover");
         }
         .active {
-          background-color: white;
-          border: $green 1px solid;
+          @include theme-controller(
+            "background-color",
+            "color-navbutton-active"
+          );
+          @include theme-controller("border", "theme-navbutton-activeborder");
+        }
+        .active:hover {
+          @include theme-controller("border", "theme-navbutton-activeborder");
         }
       }
     }
     .sidenav_bot {
-      display: block;
+      // SIZING
       height: 38%;
       width: 80%;
+      // POSITION
+      display: block;
       text-align: center;
       position: relative;
       img {
@@ -82,18 +102,25 @@
         }
       }
       button {
+        // SIZING
         width: 200px;
         height: 40px;
-        border: $gray 1px solid;
-        border-radius: 15px;
-        background-color: white;
-        font-size: 1rem;
+        // POSITION
         margin: 5px 0px 10px;
+        // FONTS
+        font-size: 1rem;
+        // OTHER
+        border-radius: 15px;
         transition: 0.2s ease-in-out;
+        // COLORS AND THEME SETTINGS
+        border: $gray 1px solid;
+        @include theme-controller(
+          "background-color",
+          "theme-navbutton-inactive"
+        );
       }
       button:hover {
-        color: $lightred;
-        border: $lightred 1px solid;
+        @include theme-controller("border", "theme-navbutton-border-hover");
       }
       h6 {
         font-weight: 300;
@@ -102,3 +129,9 @@
     }
   }
 }
+
+// SIZING
+// POSITION
+// FONTS
+// OTHER
+// COLORS AND THEME SETTINGS
