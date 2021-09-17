@@ -4,14 +4,17 @@
   padding: 2% 1%;
   max-width: 100vw;
   .topnav_box {
-    display: flex;
-    padding: 1% 2%;
-    // background-color: $gray;
-    background-color: $gray;
-    position: relative;
-    border-radius: 30px;
+    // SIZING
     max-width: 100vw;
     height: 50px;
+    // POSITION
+    display: flex;
+    position: relative;
+    padding: 1% 2%;
+    // OTHER
+    border-radius: 30px;
+    // COLORS AND THEME SETTINGS
+    @include theme-controller("background-color", "theme-navbackground");
     .topnav_box_left {
       width: 50%;
       .topnav_box_left_addressbox {
@@ -76,18 +79,23 @@
         width: 10rem;
         transition: 0.2s ease-in-out;
         .profilebox_profilepic {
-          margin-right: 10px;
-          border-radius: 50%;
-          vertical-align: middle;
+          // SIZING
           width: 1.5rem;
           height: 1.5rem;
-          line-height: 1.5rem;
+          // POSITION
+          margin-right: 10px;
           padding: 2px;
+          text-align: center;
+          // FONTS
+          font-size: 1rem;
+          line-height: 1.5rem; //must be same as width and heigth
+          // OTHER
+          border-radius: 50%;
+          vertical-align: middle;
+          // COLORS AND THEME SETTINGS
           background: #fff;
           border: 1px solid rgb(206, 206, 206);
           color: #666;
-          text-align: center;
-          font-size: 1rem;
           background-color: rgb(246, 185, 70);
         }
       }
