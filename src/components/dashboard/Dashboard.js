@@ -7,11 +7,13 @@ import Dashboardrightbotbox from "./Dashboardleftbotbox";
 const Dashboard = () => {
   return (
     <div className="dashboard_mainbox">
+      <h2>Portfolio Dashboard</h2>
       <Dashboardtopbox />
-      <Dashboardleftbotbox />
-      <Dashboardmidbotbox />
-      <Dashboardrightbotbox />
-      <h1>Dashboard</h1>
+      <div className="dashboard_gridbotbox">
+        <Dashboardleftbotbox />
+        <Dashboardmidbotbox />
+        <Dashboardrightbotbox />
+      </div>
     </div>
   );
 };

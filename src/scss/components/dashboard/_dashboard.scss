@@ -5,4 +5,8 @@
   max-height: 100vh;
   max-width: 100vw;
   border: red 1px solid;
+  .dashboard_gridbotbox {
+    display: grid;
+    grid-template-columns: 3fr;
+  }
 }
