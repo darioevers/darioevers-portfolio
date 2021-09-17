@@ -1,14 +1,19 @@
-.topnav_box {
-  background-color: $gray;
+.topnav_mainbox {
   position: relative;
-  border-radius: 15px;
-  width: 70%;
-  margin-left: 25%;
-  height: 60px;
-  .topnav_box_left {
-    width: 50%;
-  }
-  .topnav_box_right {
-    width: 50%;
+  margin-left: 320px;
+  padding: 1%;
+  max-width: 100vw;
+  .topnav_box {
+    background-color: $gray;
+    position: relative;
+    border-radius: 15px;
+    max-width: 100vw;
+    height: 60px;
+    .topnav_box_left {
+      width: 50%;
+    }
+    .topnav_box_right {
+      width: 50%;
+    }
   }
 }

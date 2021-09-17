@@ -6,7 +6,7 @@ import Dashboardrightbotbox from "./Dashboardleftbotbox";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="dashboard_mainbox">
       <Dashboardtopbox />
       <Dashboardleftbotbox />
       <Dashboardmidbotbox />
