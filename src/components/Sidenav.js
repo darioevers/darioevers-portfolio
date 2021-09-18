@@ -4,14 +4,14 @@ import mailmanimg from "../img/MAILMAN.svg";
 
 const Sidenav = () => {
   return (
-    <div class="sidenav_main">
-      <div class="sidenav_boxes">
-        <div class="sidenav_top"></div>
-        <div class="sidenav_mid">
-          <ul class="sidenav_navigation">
+    <div className="sidenav_main">
+      <div className="sidenav_boxes">
+        <div className="sidenav_top"></div>
+        <div className="sidenav_mid">
+          <ul className="sidenav_navigation">
             <li>
               <NavLink exact to="/" className="sidenav_button">
-                <i class="fas fa-columns"></i> Dashboard
+                <i className="fas fa-columns"></i> Dashboard
               </NavLink>
             </li>
             <li>
@@ -20,7 +20,7 @@ const Sidenav = () => {
                 activeClassName="active"
                 className="sidenav_button"
               >
-                <i class="fas fa-heart"></i> About
+                <i className="fas fa-heart"></i> About
               </NavLink>
             </li>
             <li>
@@ -29,7 +29,7 @@ const Sidenav = () => {
                 activeClassName="active"
                 className="sidenav_button"
               >
-                <i class="fas fa-tools"></i> Skills
+                <i className="fas fa-tools"></i> Skills
               </NavLink>
             </li>
             <li>
@@ -38,7 +38,7 @@ const Sidenav = () => {
                 activeClassName="active"
                 className="sidenav_button"
               >
-                <i class="fas fa-compass"></i> Works
+                <i className="fas fa-compass"></i> Works
               </NavLink>
             </li>
             <li>
@@ -47,7 +47,7 @@ const Sidenav = () => {
                 activeClassName="active"
                 className="sidenav_button"
               >
-                <i class="fas fa-envelope"></i> Contact
+                <i className="fas fa-envelope"></i> Contact
               </NavLink>
             </li>
             <li>
@@ -56,12 +56,12 @@ const Sidenav = () => {
                 activeClassName="active"
                 className="sidenav_button"
               >
-                <i class="fas fa-cog"></i> Settings
+                <i className="fas fa-cog"></i> Settings
               </NavLink>
             </li>
           </ul>
         </div>
-        <div class="sidenav_bot">
+        <div className="sidenav_bot">
           <img src={mailmanimg} alt="Logo" />
           <Link to="/contact">
             <button>Get In Touch</button>

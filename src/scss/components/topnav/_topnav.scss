@@ -36,6 +36,33 @@
       line-height: 3.1rem;
       .themetoggle_button {
         width: 4rem;
+        label {
+          cursor: pointer;
+        }
+        input {
+          position: absolute;
+          transform: scale(0);
+        }
+        input:checked ~ .themetoggle-switch {
+          background: #1ac0a2;
+        }
+        input:checked ~ .themetoggle-switch .themetoggle-switch-handle {
+          transform: translateX(25px);
+        }
+        .themetoggle-switch {
+          display: block;
+          width: 45px;
+          padding: 3px;
+          background: #414048;
+          transition: all 0.35s;
+        }
+        .themetoggle-switch-handle {
+          display: block;
+          width: 20px;
+          height: 20px;
+          background: #1d1c1d;
+          transition: all 0.35s;
+        }
       }
       .contactbox_button {
         width: 4rem;

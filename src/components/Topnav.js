@@ -13,12 +13,18 @@ const Topnav = () => {
         <div className="topnav_box_right">
           <div className="themetoggle_button">
             <Themetoggle />
+            <label>
+              <input type="checkbox" onClick={Themetoggle} />
+              <span className="themetoggle-switch">
+                <span className="themetoggle-switch-handle"></span>
+              </span>
+            </label>
           </div>
           <div className="contactbox_button">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
           </div>
           <div className="notificationbox_button">
-            <i class="fas fa-bell"></i>
+            <i className="fas fa-bell"></i>
           </div>
           <div className="profilebox_button">
             <div className="profilebox_profilepic">

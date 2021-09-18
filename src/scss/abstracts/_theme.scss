@@ -38,3 +38,25 @@ $themes: (
     theme-topnav-leftbox-fontcolor: #000000,
   ),
 );
+
+html[data-theme="light"] {
+  $gray: #f6f6f6;
+  $darkred: #d7263d;
+  $lightred: #ea686a;
+  $orange: #f46036;
+  $blue: #2e294e;
+  $bluegreen: #22c2b1;
+  $green: #c5d86d;
+  $yellow: #c5d86d;
+}
+
+html[data-theme="dark"] {
+  $gray: #f6f6f6;
+  $darkred: #d7263d;
+  $lightred: #ea686a;
+  $orange: #f46036;
+  $blue: #2e294e;
+  $bluegreen: #22c2b1;
+  $green: #c5d86d;
+  $yellow: #c5d86d;
+}
