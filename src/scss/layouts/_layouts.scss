@@ -7,6 +7,12 @@ body {
   @include theme-controller("background", "theme-background");
 }
 
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   @include theme-controller("color", "theme-primarytext");
 }

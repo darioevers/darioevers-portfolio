@@ -20,13 +20,12 @@
       .topnav_box_left_addressbox {
         text-align: center;
         width: 250px;
-        background-color: $green;
-
+        @include theme-controller("background-color", "theme-topnav-leftbox");
         border-radius: 15px;
         line-height: 3.1rem;
-        color: white;
         h4 {
           font-weight: 400;
+          color: #000000;
         }
       }
     }

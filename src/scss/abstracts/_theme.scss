@@ -2,31 +2,39 @@
 
 $themes: (
   light: (
+    // GLOBAL
     theme-background: #ffffff,
+    theme-primarytext: #000000,
+    theme-secondarytext: #666,
+    // SIDENAV
     theme-navbackground: #f6f6f6,
     theme-navbutton-active: #ffffff,
     theme-navbutton-inactive: transparent,
     theme-navbutton-activeborder: #c5d86d 1px solid,
     theme-navbutton-inactiveborder: #f6f6f6 1px solid,
     theme-navbutton-border-hover: #c5d86d 1px solid,
-    theme-button: #ffffff,
     theme-button-hover: #f6f6f6,
-    theme-primarytext: #000000,
-    theme-secondarytext: #666,
     theme-navbutton-text: #000000,
+    // TOPNAV
+    theme-topnav-leftbox: #c5d86d,
+    theme-topnav-leftbox-fontcolor: #ffffff,
   ),
   dark: (
-    theme-background: #221f22,
-    theme-navbackground: #fcc700,
-    theme-navbutton-active: transparent,
-    theme-navbutton-inactive: transparent,
-    theme-navbutton-activeborder: #221f22 1px solid,
-    theme-navbutton-inactiveborder: #fcc700 1px solid,
-    theme-navbutton-border-hover: #c89a00 1px solid,
-    theme-button: #ffffff,
-    theme-button-hover: #f6f6f6,
+    // GLOBAL
+    theme-background: #141414,
     theme-primarytext: #ffffff,
     theme-secondarytext: #ebebeb,
-    theme-navbutton-text: #000000,
+    // SIDENAV
+    theme-navbackground: #1d1d1dea,
+    theme-navbutton-active: transparent,
+    theme-navbutton-inactive: transparent,
+    theme-navbutton-activeborder: #fed767 1px solid,
+    theme-navbutton-inactiveborder: #1d1d1dea 1px solid,
+    theme-navbutton-border-hover: #c899005d 1px solid,
+    theme-button-hover: #f6f6f6,
+    theme-navbutton-text: #ffffff,
+    // TOPNAV
+    theme-topnav-leftbox: #fed767,
+    theme-topnav-leftbox-fontcolor: #000000,
   ),
 );

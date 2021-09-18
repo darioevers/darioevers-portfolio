@@ -114,6 +114,7 @@
         transition: 0.2s ease-in-out;
         // COLORS AND THEME SETTINGS
         border: $gray 1px solid;
+        @include theme-controller("color", "theme-primarytext");
         @include theme-controller(
           "background-color",
           "theme-navbutton-inactive"
