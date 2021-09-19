@@ -18,6 +18,9 @@ $themes: (
     // TOPNAV
     theme-topnav-leftbox: #c5d86d,
     theme-topnav-leftbox-fontcolor: #ffffff,
+    theme-topnav-rightbox: #ffffff,
+    theme-topnav-rightbox-border: $gray 1px solid,
+    theme-topnav-rightbox-border-hover: $lightred 1px solid,
   ),
   dark: (
     // GLOBAL
@@ -36,5 +39,8 @@ $themes: (
     // TOPNAV
     theme-topnav-leftbox: #fed767,
     theme-topnav-leftbox-fontcolor: #000000,
+    theme-topnav-rightbox: #3b3b3b,
+    theme-topnav-rightbox-border: #1d1d1dea 1px solid,
+    theme-topnav-rightbox-border-hover: #fed767 1px solid,
   ),
 );

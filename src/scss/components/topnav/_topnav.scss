@@ -98,9 +98,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: $gray 1px solid;
         border-radius: 10px;
-        background-color: white;
+        @include theme-controller("background-color", "theme-topnav-rightbox");
+        @include theme-controller("border", "theme-topnav-rightbox-border");
         height: 3.1rem;
         width: 10rem;
         transition: 0.2s ease-in-out;
@@ -126,8 +126,10 @@
         }
       }
       .profilebox_button:hover {
-        color: $lightred;
-        border: $lightred 1px solid;
+        @include theme-controller(
+          "border",
+          "theme-topnav-rightbox-border-hover"
+        );
       }
     }
   }
