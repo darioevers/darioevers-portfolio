@@ -67,9 +67,12 @@
         .active {
           @include theme-controller(
             "background-color",
-            "color-navbutton-active"
+            "theme-navbutton-active"
           );
           @include theme-controller("border", "theme-navbutton-activeborder");
+          i {
+            @include theme-controller("color", "theme-navbutton-activeicon");
+          }
         }
         .active:hover {
           @include theme-controller("border", "theme-navbutton-activeborder");
